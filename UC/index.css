@@ -1,0 +1,48 @@
+/* 
+General Styles 
+*/
+
+body{
+    margin: 0; 
+    padding: 0; 
+}
+
+/* 
+Specfiic Styles 
+*/
+
+.navbar {
+    max-width: 1770px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e00122;
+    fill: white; 
+
+}
+
+.navbar-right,
+.navbar-left {
+    display: flex; 
+    align-items: center;
+}
+
+.navbar-left svg{
+    width: 250px;
+    padding: 5px; 
+}
+
+.navbar-right div {
+    border-left: 1px solid white; 
+    display: flex; 
+    padding: 16px 7px;  
+}
+
+.navbar-right svg{
+    width: 25px; 
+}
+
+.navbar-right :hover, 
+.navbar-left :hover {
+    background-color: rgb(163, 18, 18);
+}
