@@ -18,7 +18,8 @@ Specfiic Styles
     align-items: center;
     background-color: #e00122;
     fill: white; 
-
+    padding-left: 10%;
+    padding-right: 10%; 
 }
 
 .navbar-right,
@@ -33,7 +34,7 @@ Specfiic Styles
 }
 
 .navbar-right div {
-    border-left: 1px solid white; 
+    border-left: 1px solid white;  
     display: flex; 
     padding: 16px 7px;  
 }
@@ -42,7 +43,19 @@ Specfiic Styles
     width: 25px; 
 }
 
+.menu {
+    border-right: 1px solid white; 
+}
+
 .navbar-right :hover, 
 .navbar-left :hover {
     background-color: rgb(163, 18, 18);
+}
+
+.background-picture  img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
